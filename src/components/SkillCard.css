@@ -1,0 +1,23 @@
+.image-wrapper {
+    width:100%;
+    justify-content: space-between;
+    border: 2px solid white; /* simply to show you the collapsed state for this demo */
+  }
+  .image {
+    width: 100%;
+  }
+  .card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    height: 50px;
+    width:60px;
+   flex: 0 1 calc(25% - 1em);
+  }
+  .skill-title-wrapper{
+    justify-content: center;
+    font: 1em sans-serif;
+    font-size:5mm;
+      float: center;
+  }

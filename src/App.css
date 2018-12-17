@@ -1,0 +1,142 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+.color-container {
+  display: flex;
+}
+.color {
+  flex-basis: 50%;
+  height: 100vh;
+  cursor: pointer;
+  position: relative;
+}
+
+.color__code {
+  position: left;
+  
+  background-color: rgba(0,0,0,0.4);
+  color: white;
+  font-family: Helvetica, sans-serif;
+  letter-spacing: 0.1rem;
+  font-size: 1.25em;
+  font-weight: 300;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.color__code::selection {
+  background-color: transparent;
+}
+
+@media screen and (max-width: 550px) {
+  .color-container {
+    flex-wrap: wrap;
+  }
+  .color {
+    height: 50vh;
+  }
+}
+
+
+
+html,
+body{
+  height: 100%;
+  margin:  0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.icon{
+  margin: 10px;
+}
+.h3{
+  margin: 3rem;
+}
+p {
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 200px;
+  width: 120px;
+  background-color: white;
+  
+}
+.image-wrapper {
+  width: 90%;
+  border: 2px solid white; /* simply to show you the collapsed state for this demo */
+}
+.image {
+  width: 100%;
+}
+  
+
+.first{
+  background-color: #004000;
+  color: white;
+  }
+  .second{
+    background-color: #ffff59;
+    }
+ .third{
+      background-color: #c0c0c0;
+          }
+  
+.App {
+  text-align: center;
+}
+.icons-wrapper {
+  display: flex; 
+  flex-direction: row;  
+  justify-content: center;
+  align-items: center;
+}
+
+.card-wrapper {
+  display: flex; 
+  flex-direction: row;  
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.wrapper {
+  max-width: 960px; /* 20px smaller, to fit the paddings on the sides */
+
+  padding-right: 10px;
+  padding-left: 10px;
+
+  /* ...  */
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

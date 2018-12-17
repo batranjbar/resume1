@@ -1,0 +1,32 @@
+.card-wrapper {
+    display: flex; 
+    flex-direction: row;  
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 20px;
+
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+ 
+
+  
+  .card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 50px;
+    width:60px;
+   flex: 0 1 calc(25% - 1em);
+  }
+   h1{ 
+     float: center;
+   } 
+  
+  
+ 

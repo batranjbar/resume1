@@ -1,0 +1,99 @@
+ {
+    "title":"HELLO  I  AM RANJBAR" ,
+    "subtitle":"Github | Full Stack Dew | linkedin | Gmail ",
+    "links":{
+        "github": "https://github.com/batranjbar2018",
+        "stackoverlow": "https://stackoverflow.com/story/",
+        "linkedin": "linkedin.com/in/batool-ranjbar-77766978",
+        "gmail":"http://batranjbar2018.gmail.com/"
+   } ,
+   "sections":[
+    {
+        "title":"About",
+        "items" : [
+            {
+                "type":"p",
+                "content":"I have worked about 26 years in Tejarat Bank.I have Masters degree in Electronic business information technology management.I have worked with  someProgramming languages.I would like to lean programing with JAVA so I have started to learn React for front end. "
+        
+                
+            }
+        ]
+    },
+    {
+        "title":"Skills",
+      
+        "items" : [
+            {
+                "type":"card",
+                "content":{
+                "image":"images/image-react.png",
+                "title" :"React"   
+                }
+            },
+            {
+                "type":"card",
+                "content":{
+                "image":"images/image-js1.png",
+                "title" :"Javascript"   
+                } 
+            },
+            {
+                "type":"card",
+                "content":{
+                "image":"images/image-html.png",
+                "title" :"HTML"   
+                }  
+            },
+            {
+                "type":"card",
+                "content":{
+                "image":"images/image-css2.png",
+                "title" :"Css"   
+                }  
+            },
+            {
+                "type":"card",
+                "content":{
+                "image":"images/SQL.jpeg",
+                "title" :"SQL"   
+                } 
+               
+            },
+            {
+                "type":"card",
+                "content":{
+                "image":"images/DB2.jpeg",
+                "title" :"DB2"   
+                } 
+               
+            },
+            {
+                "type":"card",
+                "content":{
+                "image":"images/cobol.png",
+                "title" :"cobol"   
+                } 
+               
+            },
+            {
+                "type":"card",
+                "content":{
+                "image":"images/oracle.jpeg",
+                "title" :"oracle"   
+                } 
+               
+            }
+        ]
+    }
+    ],
+    "icons": {
+        "down":"images/down1.png "
+    },
+    "icons1": {
+        "brush":"images/brush1.png "
+    }
+ } 
+
+
+ 
+               
