@@ -12,7 +12,7 @@ class SkillSection extends Component{
     render(){
         return (
                     <div>
-        <Fullpage className = "third"> 
+        <Fullpage className = "third" backgroundColor={this.props.backgroundColor} > 
         <h1>{data.sections[1].title}</h1>
        <h1></h1>
         <div className="card-wrapper">

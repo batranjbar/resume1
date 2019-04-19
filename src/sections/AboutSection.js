@@ -9,7 +9,7 @@ class AboutSection extends Component{
         return (
                         <div>   
 
-         <Fullpage className = "second"> 
+         <Fullpage className = "second" backgroundColor={this.props.backgroundColor} > 
        
         <h1>{data.sections[0].title}</h1>
         <div className="paragraphs">  

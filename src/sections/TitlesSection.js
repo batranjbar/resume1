@@ -24,7 +24,7 @@ class TitlesSection extends Component{
     render(){
         return (
             <div>
-            <Fullpage className = "first">   
+            <Fullpage className = "first" backgroundColor={this.props.backgroundColor} >   
             <h1 className="title"
              style={{
                 color: this.state.color
