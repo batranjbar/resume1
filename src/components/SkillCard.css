@@ -14,6 +14,7 @@
     height: 50px;
     width:60px;
    flex: 0 1 calc(25% - 1em);
+   background-color: lightgreen;
   }
   .skill-title-wrapper{
     justify-content: center;
